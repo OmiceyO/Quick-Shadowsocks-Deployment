@@ -22,6 +22,10 @@ curl https://raw.githubusercontent.com/OmiceyO/Quick-Shadowsocks-Deployment/main
 ```
 curl https://raw.githubusercontent.com/OmiceyO/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-ss.sh | bash
 ```
+or if you're logged in as root:
+```
+curl https://raw.githubusercontent.com/OmiceyO/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-ss-root.sh | bash
+```
 6) Change the default password by editing this file ->
 ```
 nano /var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json
