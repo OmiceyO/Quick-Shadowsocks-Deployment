@@ -14,13 +14,13 @@ Step-by-Step video guide: https://www.youtube.com/watch?v=xPM4elJtxCs
 - On Linux, macOS or Windows 11, just use ssh directly from the terminal like so -> `ssh root@YOUR SERVER's IP`
 3) Update the server and install Snap with ->   
 ```
-sudo wget https://raw.githubusercontent.com/OmiceyO/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-setup.sh | bash
+curl https://raw.githubusercontent.com/OmiceyO/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-setup.sh | bash
 ```
 - On 22.04 press ENTER at any prompt that shows up until it asks you to manualy reboot. Then press CTRL+C and type in "reboot".
 4) Your server just rebooted, keep calm and SSH into it again then proceed to step 5.
 5) Install Shadowsocks with ->   
 ```
-sudo wget https://raw.githubusercontent.com/OmiceyO/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-ss.sh | bash
+curl https://raw.githubusercontent.com/OmiceyO/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-ss.sh | bash
 ```
 6) Change the default password by editing this file ->
 ```
