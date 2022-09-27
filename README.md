@@ -5,7 +5,7 @@ What is Shadowsocks?
 Quick Shadowsocks deployment for Linux servers, specifically Ubuntu 20.04 & 22.04   
 Step-by-Step video guide: https://www.youtube.com/watch?v=xPM4elJtxCs
 
-1) Get yourself an Ubuntu 20.04 or 22.04 server from a VPS provider (Linode, DigitalOcean, etc.) which costs about 5$ a month.
+1) Get yourself an Ubuntu 20.04 or 22.04 server from a VPS provider (Linode, DigitalOcean, etc.) which costs about $5 a month.
 - https://www.linode.com
 - https://www.digitalocean.com
 - There are more VPS providers out there, feel free to check them out.
